@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head id="head">
+
+    <section class="header">
+        <h1> Michelle Brink</h1>
+        <br />
+
+
+    </section>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul styletype="none" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#head">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#p1">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#p2">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#p3">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#p4">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+    </div>
+
+<link rel="stylesheet" href="./css.css">
+
+
+
+
+<body>
+    <img src="me.jpg" alt="me">
+    <div>
+        <br /><br />
+        <br /><br />
+
+
+
+        <h2 id="label">About me</h2>
+        <br />
+
+        <p1 id="p1">
+
+            I am a highschool student interested in coding and mechanical engineering. I excel in Maths, IT, and Physics.
+            I am currently in 10th grade and I am focusing on fishing school. 
+            I am native to South Africa, but I aim to work overseas one day. I can speak english and afrikaans fluently and I am learning german.
+
+        </p1>
+        <p2 id="p2">
+            <h2 id="label">Experience</h2>
+            <br />
+            I've been coding since the age of 13. I attended coding classes in grade 7, where we mostly worked with Python and HTML.
+            During the 9th grade I started an online coding course where I learned more HTML basics.
+             
+
+            <br /><br />
+        </p2>
+        <p3 id="p3">
+            <h2 id="label">Interests</h2>
+            <br />
+            As previously mentioned, I aspire to beacome a mechanical engineer. I am especially intrigued by:
+            rockets, aircrafts, space travel and space discoveries.
+            <br /><br />
+        </p3>
+        <p4 id="p4">
+            <h2 id="label">Education</h2>
+            <br />
+            My highest qualification is 9th grade. I'm currently in 10th grade and will finish high school in two years.
+            I hope to study abroad and graduate in mechanical engineering.
+
+            <br />
+            <br />
+        </p4>
+
+    </div>
+    <div1>
+        <article class="mb-4">
+
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+            <p id="contact" class="text-center w-responsive mx-auto mb-5">
+                Send me a message, I will respond as soon as possible.
+            </p>
+            
+            <div class="row">
+
+
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form method="post" name="contact-form" action="javascript:;" onsubmit="contact()">
+
+
+                        <div class="row">
+
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject">Subject &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                                    <input type="text" id="subject" name="subject" class="form-control">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <button type="submit" id="send" class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</button>
+                        
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+
+            </div>
+
+        </article>
+
+
+    </div1>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+
+
+
+</html>
+
