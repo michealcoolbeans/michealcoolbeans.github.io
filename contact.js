@@ -1,18 +1,18 @@
 ﻿function contact() {
-    var script_url = https://script.google.com/macros/s/AKfycbwKt-OR6TBPlYsmajIXqDhY_SNCYvxVfM_exYtOpNCjY7QhikLFNb0VE7Fdz-9pr_M/exec;
+    var script_url = "https://script.google.com/macros/s/AKfycbx-EcqeUp71lw88MVUmXWJLmEkByE_GSwjmx0uIqY9LDBm2L5t7sZgGvSB09Pm0rX9I/exec";
 
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var subject = $("#subject").val();
-    var message = $("#message").val();
+    var name = $("naame").val();
+    var email = $("email").val();
+    var subject = $("subject").val();
+    var message = $("message").val();
 
     var url = script_url + "?callback=thanks&name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&subject="
-        + encodeURIComponent(subject) + "&message=" + + encodeURIComponent(message);
+        + encodeURIComponent(subject) + "&message=" + encodeURIComponent(message);
     jQuery.ajax({
         crossDomain: true,
         url: url,
         method: "GET",
-        dataType: "jsonp",
+        dataType: "jsonp"
     });
 }
 function thanks(e) {
