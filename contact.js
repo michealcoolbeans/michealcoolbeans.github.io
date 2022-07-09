@@ -1,5 +1,5 @@
 ﻿function contact() {
-    var script_url = "https://script.google.com/macros/s/AKfycbx-EcqeUp71lw88MVUmXWJLmEkByE_GSwjmx0uIqY9LDBm2L5t7sZgGvSB09Pm0rX9I/exec";
+    var script_url = "https://script.google.com/macros/s/AKfycbziLH1yLYeMFIIjksJy1vX3BtqfnVgUXCKhFtJfvvBYhqyokCR4XlkI0CA0y4ZbhU-M/exec";
 
     var name = $("naame").val();
     var email = $("email").val();
